@@ -1,10 +1,19 @@
 # Callbacks, Promeses i Async/Await
 
+A JS existeixen diverses maneres de gestionar la asincronia. Principalment:
+|Mètode|Descripció
+|---|---|
+|Mitjançant **callbacks**|Probablement, la forma més clàssica de gestionar l'asincronia en Javascript.
+|Mitjançant **promeses**|Una forma més moderna i actual de gestionar l'asincronia.
+|Mitjançant **async/await**|Seguim amb promeses, però amb async/await afegim sucre sintàctic.
+
 ## Recursos a revisar:
 
-[Callbacks, Promesas y Asincronía en Javascript](https://www.freecodecamp.org/espanol/news/sincrono-vs-asincrono-en-javascript/)
+- [Callbacks, Promesas y Asincronía en Javascript](https://www.freecodecamp.org/espanol/news/sincrono-vs-asincrono-en-javascript/)
 
-[Cómo usar Asnyc / Await](https://www.freecodecamp.org/espanol/news/como-usar-async-await-para-escribir-un-codigo-mejor-en-javascript/)
+- [Cómo usar Asnyc / Await](https://www.freecodecamp.org/espanol/news/como-usar-async-await-para-escribir-un-codigo-mejor-en-javascript/)
+
+- [General d'Asincronia a JS](https://lenguajejs.com/javascript/asincronia/que-es/)
 
 ### A. Utilitzant Callbacks
 
