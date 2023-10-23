@@ -1,6 +1,6 @@
 const findOne = (list, { key, value }, { onSuccess, onError }) => {
   setTimeout(() => {
-    const element = list.find(element => element[key] === value);
+    const element = list.find((element) => element[key] === value);
     element ? onSuccess(element) : onError({ msg: 'ERROR: Element Not Found' });
   }, 2000);
 };
@@ -11,19 +11,19 @@ const onError = ({ msg }) => console.log(msg);
 const users = [
   {
     name: 'Carlos',
-    rol: 'Teacher'
+    rol: 'Teacher',
   },
   {
     name: 'Ana',
-    rol: 'Boss'
-  }
+    rol: 'Boss',
+  },
 ];
 
 console.log('findOne success');
-findOne(users, { key: 'name', value: 'Carlos' }, { onSuccess, onError });
+findOne(users, { name: 'Carlos' }, { onSuccess, onError });
 
 console.log('findOne error');
-findOne(users, { key: 'name', value: 'Fermin' }, { onSuccess, onError });
+findOne(users, { name: 'Fermin' }, { onSuccess, onError });
 
 /*
 findOne success
