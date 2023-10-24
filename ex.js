@@ -20,10 +20,10 @@ const users = [
 ];
 
 console.log('findOne success');
-findOne(users, { name: 'Carlos' }, { onSuccess, onError });
+findOne(users, { key: 'name', value: 'Carlos' }, { onSuccess, onError });
 
 console.log('findOne error');
-findOne(users, { name: 'Fermin' }, { onSuccess, onError });
+findOne(users, { key: 'name', value: 'Fermin' }, { onSuccess, onError });
 
 /*
 findOne success
